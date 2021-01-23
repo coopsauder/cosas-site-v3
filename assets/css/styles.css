@@ -1,0 +1,85 @@
+html {
+    --cosas-primary: #5dc8cd;
+    --cosas-p-light: #92fbff;
+    --cosas-p-dark: #1d979c;
+    --cosas-secondary: #f44336;
+    --cosas-s-light: #ff7961;
+    --cosas-d-dark: #ba000d;
+    --cosas-dark: #3b3938;
+    --cosas-pastel: #FFFAF5;
+    --cosas-light-grey: #e5e5e5;
+
+
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%
+}
+
+body {
+    height: 100%;
+    width: 100%
+}
+
+p {
+    font-weight: 350;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 1rem 0;
+}
+
+
+
+.about {
+    background-color: var(--cosas-pastel);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.initiatives {
+    padding-top: 2rem;
+}
+
+.about-card {
+    background-color: var(--cosas-light-grey);
+}
+
+/* // Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {  } */
+
+
+@media (max-width: 991.98px) { 
+    .title-main {
+        font-weight: bold;
+        font-size: 48px;
+    }
+ }
+
+@media (max-width: 575.98px) { 
+    .title-main {
+        font-weight: bold;
+        font-size: 36px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... } */
+
+/* // X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... } */
+
+
+
+.bg-primary, .btn-primary {
+    background-color: var(--cosas-primary) !important;
+}
+
+.bg-secondary, .btn-secondary {
+    background: var(--cosas-secondary) !important;
+}
+
+.bg-light {
+    background-color: var(--cosas-light-grey) !important;
+}
