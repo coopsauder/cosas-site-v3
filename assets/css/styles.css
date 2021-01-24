@@ -20,8 +20,16 @@ body {
     width: 100%
 }
 
+.nav-title {
+    font-weight: bolder;
+}
+
 p {
     font-weight: 350;
+}
+
+.link-icons {
+    width: 45pt
 }
 
 .header {
@@ -29,7 +37,6 @@ p {
     text-align: center;
     padding: 0 0 1rem 0;
 }
-
 
 
 .about {
@@ -48,7 +55,15 @@ p {
 
 /* // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {  } */
-
+@media (min-width: 991.99px) {
+    .title-main {
+        font-weight: bold;
+        font-size: 64px;
+    }
+    .title-text {
+        font-size: 1.5rem
+    }
+}
 
 @media (max-width: 991.98px) { 
     .title-main {
@@ -64,6 +79,12 @@ p {
     }
 }
 
+ul.nav li a.active {
+    background-color: var(--cosas-primary) !important;
+    color: var(--cosas-dark) !important;
+    border-color: var(--dark-secondary) !important;
+}
+
 /* // Large devices (desktops, less than 1200px)
 @media (max-width: 1199.98px) { ... } */
 
@@ -77,7 +98,7 @@ p {
 }
 
 .bg-secondary, .btn-secondary {
-    background: var(--cosas-secondary) !important;
+    background: var(--cosas-dark) !important;
 }
 
 .bg-light {
