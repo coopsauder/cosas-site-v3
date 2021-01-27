@@ -1,10 +1,10 @@
-<div class="event">
+<div id="events" class="event">
     <div class="mb-5">
 
         <h2 class="header pb-3 pt-5 bg-secondary text-light mb-0">Events</h2>
         <!-- Tabs navs -->
-        <div class="container">
-            <ul class="nav nav-tabs nav-justified" id="ex1" role="tablist">
+        <div class="">
+            <ul class="nav nav-tabs nav-fill w-100" id="ex1" role="tablist">
                 <li class="nav-item" role="presentation">
                     <a class="nav-link active" id="ex3-tab-1" data-mdb-toggle="tab" href="#ex3-tabs-1" role="tab"
                         aria-controls="ex3-tabs-1" aria-selected="true">Upcoming Events</a>
@@ -17,28 +17,50 @@
             <!-- Tabs navs -->
 
             <!-- Tabs content -->
-            <div class="tab-content" id="ex2-content">
+            <div class="tab-content container" id="ex2-content">
                 <div class="tab-pane fade show active" id="ex3-tabs-1" role="tabpanel" aria-labelledby="ex3-tab-1">
-                    <div class="d-flex flex-wrap">
-                        <img src='/static_files/assets/svg/interview.svg'
-                            class="col-md-3 h-100 img-fluid border-0 align-self-center load-hidden events" alt="...">
-                        <div class="col-md-9 py-3 load-hidden events">
-                            <h2>Intake Interview Workshops</h2>
-                            <h4>October 14, October 17, October 29</h4>
-                            <p>Registration: Over</p>
-                            <p>
-                            <p>As part of our intake support initiative, COSAS will be offering Interview Workshops to
-                                support aspiring Co-op applicants. We will be going over some good habits during group
-                                interviews and providing some insight into your senior peers’ experiences. The session
-                                is for students who have made it past the application stage of the intake process.</p>
-                            </p>
-                            <a href="/2020/08/04/interview-workshop.html" class="mx-auto btn btn-primary">Learn More</a>
-                        </div>
-                    </div>
-                    <hr>
+
+                    {% assign sorted = site.events | reverse %}
+                    {% for event in sorted %}
+                        {% if event.event-status != "Over" %}
+                            <div class="my-5 d-flex flex-wrap">
+                                <img src='{{ event.image }}'
+                                    class="col-md-4 p-3 img-fluid border-0 align-self-center load-hidden events" alt="...">
+                                <div class="col-md-8 py-3 load-hidden events">
+                                    <h2>{{ event.title }}</h2>
+                                    <h6>{{ event.event-date }}</h6>
+                                    <p>Registration: {{ event.event-status }}</p>
+                                    <p>
+                                        {{ event.excerpt }}
+                                    </p>
+                                    <a href="{{ event.url }}" class="mx-auto btn btn-primary">Learn More</a>
+                                </div>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+
                 </div>
                 <div class="tab-pane fade" id="ex3-tabs-2" role="tabpanel" aria-labelledby="ex3-tab-2">
-                    Tab 2 content
+                    {% assign sorted = site.events | reverse %}
+                    {% for event in sorted %}
+                    {% if event.event-status == "Over" %}
+                    <div class="my-5 d-flex flex-wrap">
+                        <img src='{{ event.image }}'
+                            class="col-md-4 p-3 img-fluid border-0 align-self-center load-hidden events" alt="...">
+                        <div class="col-md-8 py-3 load-hidden events">
+                            <h2>{{ event.title }}</h2>
+                            <h6>{{ event.event-date }}</h6>
+                            <p>Registration: {{ event.event-status }}</p>
+                            <p>
+                                {{ event.excerpt }}
+                            </p>
+                            <a href="{{ event.url }}" class="mx-auto btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                    {% endif %}
+                    {% endfor %}
+        
+
                 </div>
             </div>
         </div>

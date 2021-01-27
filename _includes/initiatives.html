@@ -1,16 +1,34 @@
-<div id="initiatives" class="initiatives container col-11">
+<div id="initiatives" class="initiatives container col-11 mb-5">
     <div class="row">
         <h2 class="header">Initiatives</h2>
-        <p>Initiatives are our large-scale projects that span across the entire year. We are always keen on adding new ones so definitely reach out if you are interested!</p>
+        <p>Initiatives are our large-scale projects that span across the entire year. We are always keen on adding new
+            ones so definitely reach out if you are interested!</p>
     </div>
-    <div class="row bg-light">
-        <img src="assets/img/svg/intake.svg">
-        <h3>Co-op Intake Support</h3>
-        <button class="btn-dark">Learn More</button>
-    </div>
-    <div class="row">
-        <img src="assets/img/svg/csmp.svg">
-        <h3>Co-op Student Mentorship Program (CSMP)</h3>
-        <button class="btn-dark">Learn More</button>
+
+    <div class="container">
+        <div class="row">
+            {% for initiative in site.initiatives %}
+            {% if initiative.status != "inactive" %}
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div class="card">
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                        <img class="card-img-top img-fluid w-auto" src="{{ initiative.image }}" />
+                        <a href="#!">
+                            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ initiative.title }}</h5>
+                        <p class="card-text">
+                            {{ initiative.excerpt }}
+                        </p>
+                        <a href="{{ initiative.url }}" class="btn btn-primary">Learn more</a>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </div>

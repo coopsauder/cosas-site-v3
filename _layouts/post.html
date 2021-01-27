@@ -1,0 +1,14 @@
+---
+layout: default
+
+---
+{% include navigation.html %}
+
+<div class="container mt-5">
+    <div class="col-md-9 mx-auto py-5">
+        <h1 class="">{{ page.title }}</h1>
+        <p>{{ page.date | date_to_string }}</p>
+        <img class="w-100 my-3" src="{{ site.baseurl }}/{{ page.secondary-image }}">
+        {{ page.content }}
+    </div>
+</div>

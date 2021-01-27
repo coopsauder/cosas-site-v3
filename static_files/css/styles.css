@@ -24,6 +24,10 @@ body {
     font-weight: bolder;
 }
 
+.page-img {
+    object-fit: cover;
+}
+
 p {
     font-weight: 350;
 }
@@ -61,7 +65,7 @@ p {
         font-size: 64px;
     }
     .title-text {
-        font-size: 1.5rem
+        font-size: 1.25rem
     }
 }
 
@@ -103,4 +107,9 @@ ul.nav li a.active {
 
 .bg-light {
     background-color: var(--cosas-light-grey) !important;
+}
+
+.event-img {
+    object-fit: cover;
+    min-height: auto;
 }
