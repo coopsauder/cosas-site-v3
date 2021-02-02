@@ -35,7 +35,7 @@ Come learn more about your peers and expand your Sauder connections!
 
 ### Panelist Information
 
-<a class="mx-auto btn btn-primary text-dark" href="{{ site.baseurl }}/static_files/other/Panelists.pdf">Coming Soon!</a>
+<a class="mx-auto btn btn-primary text-dark" href="{{ site.baseurl }}/static_files/other/Panelists.pdf">Click Here for our Panelist Bios</a>
 
 ### Registration
 
