@@ -28,8 +28,12 @@ body {
     object-fit: cover;
 }
 
+.navbar-brand {
+    font-weight: bold!important;
+}
+
 p {
-    font-weight: 350;
+    font-weight: 400;
 }
 
 .link-icons {

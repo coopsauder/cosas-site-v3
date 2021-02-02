@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Student Panel Networking"
-date: 2020-08-04
+date: 2021-01-27
 tags: intake event
 image: static_files/img/svg/panel.svg
 secondary-image: static_files/img/img/networking.jpg
@@ -35,7 +35,7 @@ Come learn more about your peers and expand your Sauder connections!
 
 ### Panelist Information
 
-<a class="mx-auto btn btn-primary disabled text-dark" href="{{ site.baseurl }}/static_files/other/Mentorship Information Package.pdf">Coming Soon!</a>
+<a class="mx-auto btn btn-primary text-dark" href="{{ site.baseurl }}/static_files/other/Panelists.pdf">Coming Soon!</a>
 
 ### Registration
 
