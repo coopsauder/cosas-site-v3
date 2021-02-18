@@ -110,19 +110,19 @@ team:
       I’m excited to working with COSAS, and looking forward to this coming year!
 
   - id: ojash 
-      name: Ojash Tamrakar
-      position: Marketing Associate
-      year: 3
-      email: ojashtamrakar@gmail.com
-      linkedin: https://www.linkedin.com/in/ojashtamrakar12/
-      experience: Junior Support Analyst @ Prabhu Bank
-      specialization: Marketing
-      img: static_files/img/img/ojash.jpeg
-      content: >
-        "Hi everyone! My name is Ojash and I am a 3 rd -year student studying Global Supply Chain and
-        Logistics Management. I am originally from Nepal (No I have not climbed Mt.Everest… yet) but
-        completed my studies in India and France before coming to Canada. I recently got into the
-        Sauder Co-Op program and have had previous experiences in the financial and retail industry."
+    name: Ojash Tamrakar
+    position: Marketing Associate
+    year: 3
+    email: ojashtamrakar@gmail.com
+    linkedin: https://www.linkedin.com/in/ojashtamrakar12/
+    experience: Junior Support Analyst @ Prabhu Bank
+    specialization: Marketing
+    img: static_files/img/img/ojash.jpeg
+    content: >
+      "Hi everyone! My name is Ojash and I am a 3 rd -year student studying Global Supply Chain and
+      Logistics Management. I am originally from Nepal (No I have not climbed Mt.Everest… yet) but
+      completed my studies in India and France before coming to Canada. I recently got into the
+      Sauder Co-Op program and have had previous experiences in the financial and retail industry."
     
 
 
