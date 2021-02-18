@@ -1,0 +1,69 @@
+<div id="Our Team" class="container">
+    <div class="row">
+        <h2 class="header">Our Team</h2>
+    </div>
+
+
+    <div class="row d-flex">
+        {% for person in site.data.team.team %}
+
+        <div class="d-flex col-2">
+            <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <div class="card">
+                            <img class="card-img-top img-fluid w-auto" src="{{ site.baseurl }}/{{ person.img }}" />
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">{{ person.name }}</h4>
+                        <p class="card-text"> {{ person.position }} </p>
+                        <button type="button" class="btn btn-primary" data-mdb-toggle="modal"
+                            data-mdb-target="#{{ person.id }}">
+                            Learn more
+                        </button>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="{{ person.id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">{{ person.name }}</h5>
+                        <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <img class="card-img-top col-6 d-flex img-fluid w-auto" 
+                            src="{{ person.img }}">
+                        <div class="container row mx-auto justify-content-center">
+                            <a class="team-email" data-placement="left" role="button" data-toggle="popover" title="Email"
+                                data-content="{{ person.email }}">
+                                <img class="footer-icon"
+                                    src="{{ site.baseurl }}/static_files/img/svg/gmail.svg">
+                            </a>
+                            <a href="{{ person.linkedin }}">
+                                <img class="footer-icon"
+                                    src="{{ site.baseurl }}/static_files/img/svg/linkedin.svg">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-body" style="text-align: left;">
+                        <hr>
+                        <p><b>Position:</b> {{ person.position }} <br> <b>Year: {{ person.year }}</b><br>
+                            <b>Specialization:</b> {{ person.specialization }} <br> <b>Experience:</b> {{ person.experience }} <br> <b>Fun fact:</b> Let me recommend
+                            good restaurants for
+                            you. I'll never let you down.<br><br> <b>About:</b><br> {{ person.content }} <br><br>
+                            <b>Why COSAS:</b><br> {{ person.cosas }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+     
+</div>

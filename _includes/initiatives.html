@@ -9,7 +9,7 @@
         <div class="row">
             {% for initiative in site.initiatives %}
             {% if initiative.status != "inactive" %}
-            <div class="col-md-6 d-flex align-items-stretch">
+            <div class="col-md-4 d-flex align-items-stretch">
                 <div class="card">
                     <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                         <img class="card-img-top img-fluid w-auto" src="{{ initiative.image }}" />
@@ -18,7 +18,7 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">{{ initiative.title }}</h5>
+                        <h5 class="card-title font-weight-bold">{{ initiative.title }}</h5>
                         <p class="card-text">
                             {{ initiative.excerpt }}
                         </p>

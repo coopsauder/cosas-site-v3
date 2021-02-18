@@ -61,6 +61,11 @@ p {
     background-color: var(--cosas-light-grey);
 }
 
+.footer-icon {
+    width: 3vh;
+    margin: auto 0.5vw
+}
+
 /* // Small devices (landscape phones, less than 768px)
 @media (max-width: 767.98px) {  } */
 @media (min-width: 991.99px) {

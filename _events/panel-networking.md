@@ -5,7 +5,7 @@ date: 2021-01-27
 tags: intake event
 image: static_files/img/svg/panel.svg
 secondary-image: static_files/img/img/networking.jpg
-event-status: Available
+event-status: Over
 event-link: reg-interview
 event-date: February 8th, 2021
 location: Zoom
