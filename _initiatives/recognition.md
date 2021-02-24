@@ -1,25 +1,27 @@
 ---
 layout: post
-title: COSAS Recognition Program
+title: Co-op Recognition Program
 image: static_files/img/svg/recognition.svg
 secondary-image: static_files/img/img/recognition.jpg
 ---
-Through CRP, we provide students and alumni the rare opportunity to recognize their peers, mentors, and whomever you appreciate within the UBC Sauder Co-op network. This is a platform for you to be recognized for your generous help and impact on others. 
+The Co-op Recognition Program (CRP) provides students with the rare opportunity to publicly recognize – and be recognized – for their impact and contributions to the UBC Sauder Co-op program. 
 
 [We are always committed to building a sense of community for all Sauder Co-op students and alumni.]({{ site.baseurl }}/static_files/other/RecognitionLetter.pdf)
 
+### How CRP works:
+
+1. There’s an individual you wish to recognize. [*Note: A genuine reason for appreciation must be provided*]
+2. [**Submit the Recognition Form**]("https://forms.gle/TkJAZDpYwSYz9vvL6")
+3. COSAS will send your message to the recognized individual(s). With permission, COSAS will feature outstanding notes on various social media platforms biweekly. [*Anonymous notes of thanks also accepted*].
+
+###  Why CRP?
+1. Individuals can publicly express their appreciation to those that made a positive impact on their Co-op journey. 
+2. Appreciation can be given anonymously.
+3. High contributing members will be awarded at the end of semester.
+   
 ### Who can participate?
+Any individual in the UBC Sauder Co-op network has the opportunity to participate in CRP!
 
-Any individual who has benefitted from a member of the UBC Sauder Co-op Community can show their appreciation by giving a shout-out through the recognition program. You can recognize any UBC Sauder alum, Co-op mentor, or fellow student for providing assistance, support, or advice!
+<!-- <a href="{{ site.baseurl }}/static_files/other/Recognition.pdf">Download our information pamphlet here</a>
 
-
-### Recognition form:
-<a class="btn btn-primary text-dark" href="https://forms.gle/TkJAZDpYwSYz9vvL6">Recognize a member of your community here!</a><br>
-<br>
-
-
-### How this program works
-
-<a href="{{ site.baseurl }}/static_files/other/Recognition.pdf">Download our information pamphlet here</a>
-
-<iframe width="100%" height="1000" src="{{ site.baseurl }}/static_files/other/Recognition.pdf">
+<iframe width="100%" height="1000" src="{{ site.baseurl }}/static_files/other/Recognition.pdf"> -->
