@@ -11,7 +11,7 @@ The Co-op Recognition Program (CRP) provides students with the rare opportunity 
 ### How CRP works:
 
 1. There’s an individual you wish to recognize. [*Note: A genuine reason for appreciation must be provided*]
-2. [**Submit the Recognition Form**]("https://forms.gle/TkJAZDpYwSYz9vvL6")
+2. [**Submit the Recognition Form**](https://forms.gle/TkJAZDpYwSYz9vvL6)
 3. COSAS will send your message to the recognized individual(s). With permission, COSAS will feature outstanding notes on various social media platforms biweekly. [*Anonymous notes of thanks also accepted*].
 
 ###  Why CRP?
