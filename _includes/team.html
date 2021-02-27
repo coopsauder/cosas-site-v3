@@ -3,26 +3,28 @@
         <h2 class="header">Our Team</h2>
     </div>
 
-
-    <div class="row d-flex">
+    <div class="row">
         {% for person in site.data.team.team %}
 
-        <div class="d-flex col-2">
-            <div class="card">
-                <div class="card-horizontal">
-                    <div class="img-square-wrapper">
-                        <div class="card">
-                            <img class="card-img-top img-fluid w-auto" src="{{ site.baseurl }}/{{ person.img }}" />
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title">{{ person.name }}</h4>
-                        <p class="card-text"> {{ person.position }} </p>
+        <div class="col-md-3">
+            <p></p>
+            <div class="card p-1">
+                <div class="card-horizontal row">
+                    <!-- <div class="d-flex col-3 img-square-wrapper">
+                        <img class="d-flex card-img-top img-fluid w-auto col-2" src="{{ site.baseurl }}/static_files/img/img/louie.jpg"/>
+                    </div> -->
+                    <div class="card-body col-6 my-auto">
+                        <h5 class="card-title font-weight-bold">{{ person.name }}</h5>
+                        <p class="card-text">{{ person.position }}</p>
                         <button type="button" class="btn btn-primary" data-mdb-toggle="modal"
                             data-mdb-target="#{{ person.id }}">
                             Learn more
                         </button>
                         <p></p>
+                    </div>
+                    <div class="d-flex col-4 h-75 img-square-wrapper my-auto">
+                        <img class="d-flex card-img-top img-fluid w-auto col-2"
+                            src="{{ site.baseurl }}/{{person.img}}" />
                     </div>
                 </div>
             </div>
@@ -33,37 +35,27 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">{{ person.name }}</h5>
+                        <h5 class="modal-title" id="exampleModalLabel">Lerry Zhang</h5>
                         <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
                     </div>
-                    <div class="modal-body text-center">
-                        <img class="card-img-top col-6 d-flex img-fluid w-auto" 
-                            src="{{ person.img }}">
-                        <div class="container row mx-auto justify-content-center">
-                            <a class="team-email" data-placement="left" role="button" data-toggle="popover" title="Email"
-                                data-content="{{ person.email }}">
-                                <img class="footer-icon"
-                                    src="{{ site.baseurl }}/static_files/img/svg/gmail.svg">
-                            </a>
-                            <a href="{{ person.linkedin }}">
-                                <img class="footer-icon"
-                                    src="{{ site.baseurl }}/static_files/img/svg/linkedin.svg">
-                            </a>
-                        </div>
-                    </div>
+                    <div class="modal-body" style="text-align: center;"><img class="d-flex w-50 img-responsive img-fluid mx-auto"
+                            src="{{ site.baseurl }}/{{person.img}}"></div>
                     <div class="modal-body" style="text-align: left;">
-                        <hr>
-                        <p><b>Position:</b> {{ person.position }} <br> <b>Year: {{ person.year }}</b><br>
-                            <b>Specialization:</b> {{ person.specialization }} <br> <b>Experience:</b> {{ person.experience }} <br> <b>Fun fact:</b> Let me recommend
-                            good restaurants for
-                            you. I'll never let you down.<br><br> <b>About:</b><br> {{ person.content }} <br><br>
-                            <b>Why COSAS:</b><br> {{ person.cosas }}
+                        <p>
+                            <b>Name:</b>{{ person.name }}<br>
+                            <b>Position:</b>{{ person.position }}<br>
+                            <b>Year: {{ person.year }}</b><br>
+                            <b>Specialization:</b> {{ person.specialization }}<br>
+                            <b>Experience:</b> {{ person.experience }} <br> 
+                            <b>About:</b> {{ person.content }}<br>
+                            <hr> 
+                            <b>Contact:</b> <a href="{{ person.linkedin }}">Come find me on LinkedIn!</a>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        {% endfor %}
-    </div>
-     
+
+    {% endfor %}
+    </dic>
 </div>

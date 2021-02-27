@@ -117,13 +117,73 @@ team:
     linkedin: https://www.linkedin.com/in/ojashtamrakar12/
     experience: Junior Support Analyst @ Prabhu Bank
     specialization: Marketing
-    img: static_files/img/img/ojash.jpeg
+    img: static_files/img/img/ojash.jpg
     content: >
       "Hi everyone! My name is Ojash and I am a 3 rd -year student studying Global Supply Chain and
       Logistics Management. I am originally from Nepal (No I have not climbed Mt.Everest… yet) but
       completed my studies in India and France before coming to Canada. I recently got into the
       Sauder Co-Op program and have had previous experiences in the financial and retail industry."
     
+  - id: maddie
+    name: Maddie Nguyen
+    position: Marketing Associate
+    year: 2
+    email: maddienguyen162@gmail.com
+    linkedin: https://www.linkedin.com/in/maddie-nguyen/
+    experience: 
+    specialization: Marketing and Business Analytics
+    img: static_files/img/img/maddie.jpg
+    content: >
+      Hi everyone! My name is Maddie, and I’m a second year Marketing and Business Analytics student at UBC Sauder with strong initiatives towards digital marketing and sales. I was recently admitted to the Co-op Program so I'm very excited to explore new opportunities and make meaningful connections in this Co-op community.
 
+  - id: francine
+    name: Francine Yu
+    position: Finance Director
+    year: 2
+    email: yu.francine@gmail.com
+    linkedin: https://www.linkedin.com/in/francine-yu/
+    experience: Peer Assisted Study Sessions @ UBC Sauder School of Business
+    specialization: Finance
+    img: static_files/img/img/francine.jpg
+    content: >
+      Francine is a 2nd year student, intending to specialize in Finance and International Business,
+      with a passion for community-building and mentorship. Originally from the Philippines, she
+      loves to travel and learn about different cultures. She currently works at Sauder’s Canaccord
+      Learning Commons as a Peer Assisted Study Sessions Leader for COMM 290 and 291. As a new
+      intake Co-op student, she is currently seeking Co-op opportunities for May 2021.  
 
-    
+  - id: elena
+    name: Elena Chen
+    position: IT Director
+    year: 2
+    email: elenachen.ubc218@gmail.com
+    linkedin: https://www.linkedin.com/in/elena-chen-ubc218/
+    experience: 
+    specialization: Accounting
+    img: static_files/img/img/elena.jpg
+    content: >
+      Hi everyone! I am a second-year student hoping to specialize in accounting with a minor in computer science. I am glad to join the COSAS team as an IT Director! This term, I will be assisting VP initiatives with improving websites and developing Slack robots. I’m so excited to have the opportunity to create value by applying my knowledge in cs and ready to learn more! In my spare time, I enjoy baking and travelling a lot. Feel free to connect with me!
+
+  - id: andy
+    name: Andy Zhang
+    position: Initiatives Associate
+    year: 3
+    email: andyzhng@student.ubc.ca
+    linkedin: http://www.linkedin.com/in/andy-zhang-
+    experience: 
+    specialization: Finance
+    img: static_files/img/img/andy.jpg
+    content: >
+      Hi everyone! My name is Andy and I am a third-year Finance student. This is my first year in the Co-op Program and I am looking forward to the great opportunities Co-op has to offer. In my free time, I love to watch hockey and play ball hockey with my friends.
+
+  - id: mina
+    name: Mina Nsouli
+    position: Initiatives Associate
+    year: 3
+    email: minansouli@gmail.com
+    linkedin: https://www.linkedin.com/in/aminansouli/
+    experience: 
+    specialization: Accounting
+    img: static_files/img/img/amina.jpg
+    content: >
+      Hi! My name is Mina and I am a third-year Accounting student. This is my first year in the Co-op Program and I am looking forward to the great opportunities Co-op has to offer. In my free time, I love to spin and travel. I am so excited to be a part of the COSAS team as an Initiative Associate and work alongside the Initiatives Team!
